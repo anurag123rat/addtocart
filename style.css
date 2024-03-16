@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-img img
+{
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+    object-fit: contain;
+
+}
+.card-img 
+{
+    padding: 12px;
+}
+
+.cart_container
+{
+    position: absolute;
+    right: 0;
+    top: 12%;
+    width: 22%;
+}
+
+.cart_container img
+{
+    width: 60px;
+    height: 54px;
+}
+
+.cartlayout
+{
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px 0px;
+    margin-bottom: 12px;
+}
+
+.card-info
+{
+    padding: 4px 0px 4px 0px;
+    background: #dddddd75;
+}
+
